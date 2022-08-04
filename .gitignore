@@ -1,5 +1,10 @@
+# Blacklist everything
 *
-!DT_Labor*.vhd
+
+# Whitelist all directories
+!*/
+
+# Whitelist source files
 !*.xdc
 !*.vhd
 !.gitignore
